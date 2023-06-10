@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu, .menu2{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu2{
+    border-top: 1px solid #EFEFEF;
+    background-color: #fff;
+    gap: 40px;
+}
+
+.menu > .menu-item{
+    padding: 17px 0;
+}
+
+.menu2 > .menu-item{
+    padding: 30px 0;
+}
+
+.item-link{
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.item-link2{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.promo-block{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1630px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.callback{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    text-transform: uppercase;
+}
+
+.callback > a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.callback > button{
+    border: 2px solid #F13C6E;
+    padding: 13px 60px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.callback > button:hover {
+    border: 1px solid  #F13C6E;
+    color:  white;
+    background: #F13C6E;
+}
+
+.banner {
+    padding-top: 192px;
+    padding-bottom: 193px;
+    background-image: url(./img/chair.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 69.375rem;
+    margin: 0 auto;
+}
+
+.h1_chair {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3.125rem;
+}
+
+.chair__text {
+    max-width: 308px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 2.125rem;
+}
+
+.banner_button {
+    width: 100%;
+    max-width: 170px;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner_button:hover {
+    border: 1px solid  #F13C6E;
+    color: black;
+    background: white;
+}
+
+.color{
+    background-color: #E5E5E5;
+}
+
+h2{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.green_chair_container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+ 
+.green_chair{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.card > .green_chair_foto{
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.card > .green_chair_text{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.green_chair_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.card > .price{
+    margin-bottom: 20px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.buy{
+    border: 2px solid #F13C6E;
+    padding: 13px 60px;
+    background-color: #F13C6E;
+    color: #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buy:hover {
+    border: 1px solid #fff;
+    color:  black;
+    background: #fff;
+}
+
+.container_cards {
+    max-width: 69.375rem;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-wrapper {
+    font-size: 0;
+}
+
+.card-wrapper-item {
+    display: inline-block;
+    font-size: 14px;
+    width: Calc(50% - 15px);
+    background-color: #F13C6E;
+    padding: 35px 45px 35px 40px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.first-image {
+    padding-top: 18px;
+}
+
+
+.card-wrapper div:first-child {
+    margin-right: 30px;
+}
+
+.card-wrapper-item  h3 {
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.card-wrapper-item-text-left {
+    max-width: 231px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.card-wrapper-item input {
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: 0;
+}
+.card-wrapper-item-text-right {
+    max-width: 141px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.card-wrapper-item button {
+    padding: 8px 28px;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.card-wrapper-item button:hover {
+    border: 1px solid  #F13C6E;
+    color:  #F13C6E;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.img-car {
+    position: relative;
+    top: 20px;
+}
+
+
+.impuls_list{
+    display: flex;
+    max-width: 1110px;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+
+.impuls_item{
+    padding: 35px 60px;
+    border: 1px solid #EFEFEF;
+}
+
+.impuls{
+    display: flex;
+    justify-content: center;
+}
+
+.indent{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 81px;
+}
+
+.footer{
+    padding: 60px 0;
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.categories_line{
+    width: 255px;
+    border: 1px solid #EFEFEF;
+}
+
+.footer_list{
+    padding-top: 25px;
+}
+
+.footer_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.promo-block2{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-top: 1px solid #EFEFEF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.social_network{
+    display: flex;
+    gap: 20px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.end_text{
+    max-width: 441px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
